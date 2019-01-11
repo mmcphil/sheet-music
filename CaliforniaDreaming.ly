@@ -1,3 +1,4 @@
+#(set-global-staff-size 30)
   \header {
   title = "California Dreaming"
   composer = "Mamas and Papas"
