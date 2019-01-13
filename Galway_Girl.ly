@@ -6,17 +6,22 @@
   subtitle = "Released in 2008"
 }
 
+% LilyBin
+
 \score {
-
- <<
- \chords{
-
- }
-
+\new Staff {
 \relative c'' {
-a1
-  }
->>
-  \layout {}
-  \midi {}
+\key d \major {
+\time 4/4                       
+\tempo 4 = 120 
+\easyHeadsOn    
+<a d fis>8 
+<a d fis>8 
+<a d fis>8 
+}
+}
+}
+
+\layout {}
+\midi {}
 }
